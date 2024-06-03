@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="mathForm">
+        <label for="number1">Number 1:</label>
+        <input type="number" id="number1"><br><br>
+        <label for="number2">Number 2:</label>
+        <input type="number" id="number2"><br><br>
+        <input type="button" value="Add" onclick="calculate('add')">
+        <input type="button" value="Multiply" onclick="calculate('multiply')">
+        <input type="button" value="Square" onclick="calculate('square')">
+        <input type="button" value="Add Squares" onclick="calculate('addSquares')">
+        <input type="button" value="Divide" onclick="calculate('divide')">
+        <input type="button" value="Subtract" onclick="calculate('subtract')">
+    </form>
+    <p id="result"></p>
+    <script src="script.js"></script>
+</body>
+</html>
